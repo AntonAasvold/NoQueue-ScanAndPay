@@ -1,0 +1,206 @@
+[
+  {
+    "LineId": "c37cc3ce-2ecd-4a42-a7d4-168488027det",
+    "SaleReturnItem": {
+      "MerchandiseHierarchy": "",
+      "IsReturn": true,
+      "ItemId": "07314223478345",
+      "ImgURL": "",
+      "Description": "Linne",
+      "RegularSalesUnitPrice": "49.90",
+      "ActualSalesUnitPrice": "49.90",
+      "Size": {
+        "SizeCode": "",
+        "Description": "M"
+      },
+      "Color": {
+        "ColorCode": "",
+        "Description": "Rosa"
+      },
+      "PriceModifiers": [
+        {
+          "Description": "",
+          "DiscountAmount": ""
+        }
+      ],
+      "TaxGroups": [
+        {
+          "TaxableAmount": "",
+          "TaxAmount": "",
+          "Description": "",
+          "Percent": ""
+        }
+      ]
+    }
+  },
+  {
+    "LineId": "c37cc3ce-2ecd-4a42-a7d4-168488027daf",
+    "SaleReturnItem": {
+      "MerchandiseHierarchy": "",
+      "IsReturn": true,
+      "ItemId": "07314223478373",
+      "ImgURL": "https://assets.hm.com/articles/0816919009?assetType=descriptiveStillLife&rendition=medium&auth=2E4437B1D7",
+      "Description": "Ribbstickad mössa",
+      "RegularSalesUnitPrice": "79.90",
+      "ActualSalesUnitPrice": "79.90",
+      "Size": {
+        "SizeCode": "",
+        "Description": "M"
+      },
+      "Color": {
+        "ColorCode": "",
+        "Description": "Ljusbeige"
+      },
+      "PriceModifiers": [
+        {
+          "Description": "",
+          "DiscountAmount": ""
+        }
+      ],
+      "TaxGroups": [
+        {
+          "TaxableAmount": "",
+          "TaxAmount": "",
+          "Description": "",
+          "Percent": ""
+        }
+      ]
+    }
+  },
+  {
+    "LineId": "3a1df990-697e-474a-aaef-1d568d6155c1",
+    "SaleReturnItem": {
+      "MerchandiseHierarchy": "",
+      "IsReturn": true,
+      "ItemId": "07313929649155",
+      "ImgURL": "https://assets.hm.com/articles/0820526002?assetType=descriptiveStillLife&rendition=medium&auth=DF9C8E2D18",
+      "Description": "Joggers",
+      "RegularSalesUnitPrice": "79.90",
+      "ActualSalesUnitPrice": "79.90",
+      "Size": {
+        "SizeCode": "",
+        "Description": "M"
+      },
+      "Color": {
+        "ColorCode": "",
+        "Description": "Ljusbeige/Revärer"
+      },
+      "PriceModifiers": [
+        {
+          "Description": "",
+          "DiscountAmount": ""
+        }
+      ],
+      "TaxGroups": [
+        {
+          "TaxableAmount": "",
+          "TaxAmount": "",
+          "Description": "",
+          "Percent": ""
+        }
+      ]
+    }
+  },
+  {
+    "LineId": "1fccee86-5fc2-45bc-b7d4-157d469af429",
+    "SaleReturnItem": {
+      "MerchandiseHierarchy": "",
+      "IsReturn": true,
+      "ItemId": "07313928770386",
+      "ImgURL": "https://assets.hm.com/articles/0812977001?assetType=descriptiveStillLife&rendition=medium&auth=1117892F0E",
+      "Description": "Jacka i fuskpäls",
+      "RegularSalesUnitPrice": "129.00",
+      "ActualSalesUnitPrice": "129.00",
+      "Size": {
+        "SizeCode": "",
+        "Description": "M"
+      },
+      "Color": {
+        "ColorCode": "",
+        "Description": "Svart"
+      },
+      "PriceModifiers": [
+        {
+          "Description": "",
+          "DiscountAmount": ""
+        }
+      ],
+      "TaxGroups": [
+        {
+          "TaxableAmount": "",
+          "TaxAmount": "",
+          "Description": "",
+          "Percent": ""
+        }
+      ]
+    }
+  },
+  {
+    "LineId": "be34c559-8fde-4a90-a207-115f71ef8585",
+    "SaleReturnItem": {
+      "MerchandiseHierarchy": "",
+      "IsReturn": true,
+      "ItemId": "07314221908483",
+      "ImgURL": "https://assets.hm.com/articles/0860632001?assetType=descriptiveStillLife&rendition=medium&auth=F1F5D8A06F",
+      "Description": "Sweatshirtshorts i bomull",
+      "RegularSalesUnitPrice": "59.90",
+      "ActualSalesUnitPrice": "59.90",
+      "Size": {
+        "SizeCode": "",
+        "Description": "M"
+      },
+      "Color": {
+        "ColorCode": "",
+        "Description": "Svart"
+      },
+      "PriceModifiers": [
+        {
+          "Description": "",
+          "DiscountAmount": ""
+        }
+      ],
+      "TaxGroups": [
+        {
+          "TaxableAmount": "",
+          "TaxAmount": "",
+          "Description": "",
+          "Percent": ""
+        }
+      ]
+    }
+  },
+  {
+    "LineId": "fe3bc0af-1112-4a17-b584-e3b528755289",
+    "SaleReturnItem": {
+      "MerchandiseHierarchy": "",
+      "IsReturn": true,
+      "ItemId": "07313921410296",
+      "ImgURL": "https://assets.hm.com/articles/0368300015?assetType=descriptiveStillLife&rendition=medium&auth=BCECE37A2F",
+      "Description": "Röda shorts",
+      "RegularSalesUnitPrice": "59.90",
+      "ActualSalesUnitPrice": "59.90",
+      "Size": {
+        "SizeCode": "",
+        "Description": "L"
+      },
+      "Color": {
+        "ColorCode": "",
+        "Description": "Röd"
+      },
+      "PriceModifiers": [
+        {
+          "Description": "",
+          "DiscountAmount": ""
+        }
+      ],
+      "TaxGroups": [
+        {
+          "TaxableAmount": "",
+          "TaxAmount": "",
+          "Description": "",
+          "Percent": ""
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "HMSans-Bold";
+    src: url("../fonts/HMSans-Bold.otf");
+}
+
+@font-face {
+    font-family: "HMSans-Light";
+    src: url("../fonts/HMSans-Light.otf");
+}
+
+@font-face {
+    font-family: "HMSans-Regular";
+    src: url("../fonts/HMSans-Regular.otf");
+}
+
+@font-face {
+    font-family: "HMSans-SemiBold";
+    src: url("../fonts/HMSans-SemiBold.otf");
+}

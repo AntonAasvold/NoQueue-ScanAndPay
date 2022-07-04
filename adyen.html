@@ -1,0 +1,63 @@
+<script type="module" src="main.js"></script>
+
+
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta name="Scan & Go" content="H&M Scan & Go">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="mask-icon" href="assets/images/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>H&M Scan & Pay</title>
+  <base href="/">
+
+  <title>Adyen test</title>
+  <script>
+    import AdyenCheckout from '@adyen/adyen-web';
+    import '@adyen/adyen-web/dist/adyen.css';
+
+
+
+    const configuration = {
+      environment: 'test', // Change to 'live' for the live environment.
+      clientKey: 'test_870be2...', // Public key used for client-side authentication: https://docs.adyen.com/development-resources/client-side-authentication
+      session: {
+        id: 'CSD9CAC3...', // Unique identifier for the payment session.
+        sessionData: 'Ab02b4c...' // The payment session data.
+      },
+      onPaymentCompleted: (result, component) => {
+          console.info(result, component);
+      },
+      onError: (error, component) => {
+          console.error(error.name, error.message, error.stack, component);
+      },
+      // Any payment method specific configuration. Find the configuration specific to each payment method:  https://docs.adyen.com/payment-methods
+      // For example, this is 3D Secure configuration for cards:
+      paymentMethodsConfiguration: {
+        card: {
+          hasHolderName: true,
+          holderNameRequired: true,
+          billingAddressRequired: true
+        }
+      }
+    };
+  </script>
+</head>
+
+<body>
+  <div id="dropin-container"></div>
+</body>
+
+</html>
